@@ -1,6 +1,9 @@
 const express = require("express")
 const app = express()
 const PORT = 8000
+const cors = require("cors")
+
+
 
 const beatles = {
     'john lennon':{
@@ -21,7 +24,7 @@ const beatles = {
     },
     'unknown': {
         'birthLocation': 'Liverpool?',
-        'strument': 'tambourine'
+        'instrument': 'tambourine'
     },
 }
 
